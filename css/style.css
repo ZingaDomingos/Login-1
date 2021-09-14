@@ -1,0 +1,263 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+/* removendo elementos apenas para telas responsivas */
+
+#abrir-menu{
+    display: flex;
+}
+
+#menu-dropdown{
+    display: flex;
+}
+
+#div-menu-drop-down{
+    display: flex;
+    width: 100%;
+}
+
+/* removendo elementos apenas para telas responsivas */
+
+              /* Estilizando a Header*/
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    }
+    #imagem-logo{
+        width: 105px;
+        background-color: white;
+        height: 90px;
+        align-items: center; 
+        display: flex;
+        text-align: center;   
+    }
+
+
+
+    #div-menu{
+        background-color: black;
+        height: 100%;
+    }
+
+    #menu{
+        background-color: transparent;
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        font-family: cursive;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    #menu-1{
+        background-color: transparent;
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        font-family: cursive;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 1px solid rgb(243, 36, 181);
+        border-radius: 3px;
+  }
+
+.login-title{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+#menu{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-family: cursive;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#menu-1{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-family: cursive;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 1px solid rgb(243, 36, 181);
+    border-radius: 3px;
+}
+#menu:hover{
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(243, 36, 181);
+}
+
+
+
+             /* Fim da Estilização da Header*/
+nav{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(243, 36, 181);
+    color: white;
+    padding-left: 36px;
+    font-family: cursive;
+    height: 3px;
+}
+
+main{
+    width: 100%;
+    height: 505.9px;
+    background-image: url("../assets/imagem-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-centro{
+    width: 100%;
+    height: 505.9px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#div-login{
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 20%;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px rgb(243, 36, 181);
+    animation-name: Animation_Div_Login;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes Animation_Div_Login{
+    0%{
+        box-shadow: 0px 0px 6px 0px rgb(243, 36, 181);
+    }
+
+    10%{
+        transition: transform 01s 0s ease-in-out;
+        box-shadow: 0px 0px 6px 0px rgb(243, 36, 181);
+    }
+}
+
+
+.login-title{
+    color: white;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input{
+    border-bottom: 1px solid rgb(243, 36, 181);
+    margin: 5px;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 90%;
+    margin-top: 18px;
+    color: white;
+    padding: 1px;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+input:focus{
+    border-radius: 5px;
+    border: 0px solid rgb(243, 36, 181);
+    box-shadow: 0px 0px 10px 0px  rgb(243, 36, 181);
+}
+
+Button{
+    width: 24%;
+    font-size: 12px;
+    font-family: cursive;
+    height: 26px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid rgb(243, 36, 181);
+    margin-left: 6px;
+    margin-top: 16px;
+    background: rgba(0, 174, 255, 0);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+button:hover{
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+}
+
+footer{
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+hr{
+    color: rgb(243, 36, 181);
+    margin-left: 0;
+    width: 20px;
+    margin-bottom: 16px;
+}
+
+span{
+    color: white;
+    font-family: cursive;
+    display: flex;
+    justify-content: left;
+}
+.div-footer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+p{
+    width: 250px;
+    color: white;
+    font-family:fantasy;
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: none;
+}
+
+#elementos-footer{
+    text-decoration: none;
+    color: white;
+    font-family:fantasy;
+    font-size: 12px;
+    padding-top: 4px;
+}
+#elementos-footer:hover{
+    color: rgb(243, 36, 181);
+}

@@ -1,0 +1,670 @@
+
+/*------------Início da estilização responsiva da tela min-width: 500px--------------*/
+@media only screen and (max-width: 700px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    /* Estilizando o menu dropdown*/
+    #abrir-menu{
+        width: 24px;
+        height: 22px;
+        margin-top: 30px;
+        margin-left: 16px;
+        cursor: pointer;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: transparent;
+        position: fixed;
+    }
+
+    #barras-do-menu{
+        transition: transform 02s 0s ease-in-out;
+        width: 100%;
+        height: 2px;
+        border: 1px solid black;
+        background-color: rgb(243, 36, 181);
+    }
+
+    #barras-do-menu-1{
+        width: 100%;
+        height: 2px;
+        border: 1px solid black;
+        transition: transform 02s 0s ease-in-out;
+        background-color: rgb(243, 36, 181);
+    }
+
+    #barras-do-menu-2{
+        width: 100%;
+        height: 2px;
+        border: 1px solid black;
+        transition: transform 02s 0s ease-in-out;
+        background-color: rgb(243, 36, 181);
+    }
+
+    #menu-dropdown{
+        width: 50%;
+        height: 100%;
+        transform: translateX(-120%);
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        position: fixed;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+        z-index:999 ;
+        transition: all 01s 0s ease-in-out;
+    }
+
+    
+    #div-menu-dropdown{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #imagem-logo-dropdown{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+    }
+
+    #btn-fechar-menu-dropdown{
+        width: 30px;
+        text-align: center;
+        font-size: 20px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        text-align: center;
+        border-radius: 10px;
+        border: 0px solid rgb(243, 36, 181);
+        margin-top: 16px;
+        margin-left: 16px;
+        background: rgba(0, 174, 255, 0);
+        color: rgb(243, 36, 181);
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+     }
+
+    #menu-dropdown-2{
+        background-color: rgba(243, 36, 181, 0.501);
+        margin-top: 10px;
+        border-top-left-radius: 26px;
+        border-top-right-radius: 26px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #span-btn{
+        display: none;
+    }
+
+    #btn-menu-dropdown{
+        background-color: rgba(255, 255, 255, 0);
+        height: 30px;
+        margin-top: 20px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-bottom-right-radius: 10px;
+        margin-right: 50px;
+        border-right: 1px solid rgb(243, 36, 181);
+        border-bottom: 1px solid rgb(243, 36, 181);
+        padding-left: 50px;
+    }
+    /* Final da Estilizaç-ao do menu dropdown*/
+
+
+                  /* Estilizando a Header*/
+    header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        border-bottom: 2px solid rgb(243, 36, 181);
+        flex-direction: column;
+        height: 90px;
+        margin-top: 0px;
+    }
+
+    #imagem-logo{
+        width: 105px;
+        height: 90px;
+        border: 0px;
+        align-items: center;   
+    }
+       
+    #menu{
+        background-color: transparent;
+        text-decoration: none;
+        display: none;
+        color: white;
+        margin-right: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    
+    #menu-1{
+        background-color: transparent;
+        text-decoration: none;
+        display: none;
+        color: white;
+        margin-right: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 1px solid rgb(243, 36, 181);
+        border-radius: 3px;
+    }
+
+    #menu:hover{
+        border-radius: 5px;
+        border-bottom: 1px solid rgb(243, 36, 181);
+    }    
+                 /* Fim da Estilização da Header*/
+
+
+    nav{
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: rgb(169, 168, 168);
+        color: white;
+        display: none;
+        font-family: cursive;
+        height: 3px;
+        width: 100%;
+    }
+    
+    main{
+        width: 100%;
+        height: 505.9px;
+        background-image: url("../assets/imagem-2-tela-responsiva.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-centro{
+        width: 100%;
+        height: 505.9px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-login{
+        background-color: rgba(0, 0, 0, 0.678);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        width: 45%;
+        height: 40%;
+        border-radius: 5px;
+    }
+    
+    .login-title{
+        width: 80px;
+        height: 80px;
+        transform: rotate(30deg);
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+        position: absolute;
+        top: 220px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    input{
+        border-bottom: 1px solid rgb(243, 36, 181);
+        margin: 5px;
+        background-color: transparent;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 85%;
+        margin-top: 18px;
+        color: white;
+        padding: 1px;
+        font-size: 12px;
+        font-family: cursive;
+    }
+    
+    #Button-login{
+        width: 40%;
+        font-size: 12px;
+        font-family: cursive;
+        height: 26px;
+        border-radius: 3px;
+        text-align: center;
+        border: 1px solid rgb(243, 36, 181);
+        margin-left: 6px;
+        margin-top: 32px;
+        background: rgba(0, 174, 255, 0);
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 0px aqua;
+    }
+
+    #Button-login:hover{
+        border-radius: 3px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+    }
+    
+    footer{
+        max-width: 100%;
+        display: flex;
+        border-top: 2px solid rgb(243, 36, 181);
+        justify-content: left;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    hr{
+        color: rgb(243, 36, 181);
+        margin-left: 0;
+        width: 20px;
+        margin-bottom: 16px;
+    }
+    
+    span{
+        color: white;
+        font-family: cursive;
+        display: flex;
+        justify-content: left;
+    }
+
+    .div-footer{
+        max-width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        background-color: rgb(0, 0, 0);
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .div-footer-perfil{
+        width: 100%;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    p{
+        width: 100%;
+        height: 100%;
+    }
+    
+    p{
+        width: 250px;
+        color: white;
+        font-family:fantasy;
+        font-size: 12px;
+        margin-top: 0px;
+        font-weight: none;
+    }
+    
+    #elementos-footer{
+        text-decoration: none;
+        color: white;
+        font-family:fantasy;
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    #elementos-footer:hover{
+        color: rgb(243, 36, 181);
+    }
+        
+}
+/*------------Fim da estilização responsiva da tela min-width: 500px--------------*/
+
+
+
+/*------------Início da estilização responsiva da tela min-width: 500px--------------*/
+@media only screen and (min-width: 701px){
+    body{
+        max-width: 100%;
+        margin: 0;
+        background-color: black;
+    }
+
+
+
+        /* Estilizando o menu dropdown*/
+        #abrir-menu{
+            width: 30px;
+            height: 22px;
+            margin-top: 16px;
+            margin-left: 16px;
+            cursor: pointer;
+            justify-content: space-between;
+            flex-direction: column;
+            background-color: transparent;
+            position: absolute;
+            display: none;
+        }
+    
+        #barras-do-menu{
+            width: 100%;
+            height: 2px;
+            display: none;
+            background-color: rgb(243, 36, 181);
+        }
+    
+        #menu-dropdown{
+            width: 0px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.604);
+            position: absolute;
+            box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+            z-index:999 ;
+            display: none;
+            transition: all 01s 0s;
+        }
+    
+        #imagem-logo-dropdown{
+            width: 76px;
+            height: 70px;
+            display: none;
+            border-radius: 100%;
+            box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+        }
+    
+        #btn-fechar-menu-dropdown{
+            width: 30px;
+            text-align: center;
+            font-size: 20px;
+            height: 26px;
+            display: none;
+            border-radius: 3px;
+            text-align: center;
+            border: 1px solid rgb(243, 36, 181);
+            margin-top: 16px;
+            margin-left: 16px;
+            background: rgba(0, 174, 255, 0);
+            color: rgb(243, 36, 181);
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+         }
+    
+        #menu-dropdown-2{
+            background-color: rgba(243, 36, 181, 0.501);
+            margin-top: 10px;
+            border-top-left-radius: 26px;
+            border-top-right-radius: 26px;
+            height: 100%;
+            box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+            display: none;
+            align-items: center;
+            flex-direction: column;
+            display: none;
+        }
+    
+        #div-menu-dropdown{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.678);
+            position: relative;
+            display: none;
+        }
+    
+        #btn-menu-dropdown{
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: 20px;
+            height: 30px;
+            position: relative;
+            display: none;
+            color: white;
+            border-bottom-right-radius: 10px;
+            margin-right: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            border-right: 1px solid rgb(243, 36, 181);
+            border-bottom: 1px solid rgb(243, 36, 181);
+            padding-left: 50px;
+        }
+    
+    
+    
+    
+        /* Estilizando o menu dropdown*/
+
+
+    
+                  /* Estilizando a Header*/
+    header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        margin-top: 0px;
+    }
+
+    #imagem-logo{
+        width: 105px;
+        height: 90px;
+        align-items: center;   
+    }
+       
+    
+    #menu{
+        background-color: transparent;
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    
+    #menu-1{
+        background-color: transparent;
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 1px solid rgb(243, 36, 181);
+        border-radius: 3px;
+    }
+
+    #menu:hover{
+        border-radius: 5px;
+        border-bottom: 1px solid rgb(243, 36, 181);
+    }    
+                 /* Fim da Estilização da Header*/
+
+
+    nav{
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: rgb(243, 36, 181);
+        color: white;
+        padding-left: 36px;
+        font-family: cursive;
+        height: 3px;
+    }
+    
+    main{
+        width: 100%;
+        height: 505.9px;
+        background-image: url("../assets/imagem-2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-centro{
+        width: 100%;
+        height: 505.9px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-login{
+        background-color: rgba(0, 0, 0, 0.678);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        width: 30%;
+        height: 46%;
+        border-radius: 5px;
+    }
+    
+    .login-title{
+        width: 80px;
+        height: 80px;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+        position: absolute;
+        top: 220px;
+        transform: rotate(30deg);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    input{
+        border-bottom: 1px solid rgb(243, 36, 181);
+        margin: 5px;
+        background-color: transparent;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 85%;
+        margin-top: 18px;
+        color: white;
+        padding: 1px;
+        font-size: 12px;
+        font-family: cursive;
+    }
+    
+    Button{
+        width: 40%;
+        font-size: 12px;
+        font-family: cursive;
+        height: 26px;
+        border-radius: 3px;
+        text-align: center;
+        border: 1px solid rgb(243, 36, 181);
+        margin-left: 6px;
+        margin-top: 32px;
+        background: rgba(0, 174, 255, 0);
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 0px aqua;
+    }
+
+    button:hover{
+        border-radius: 3px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(243, 36, 181);
+    }
+    
+    footer{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    hr{
+        color: rgb(243, 36, 181);
+        margin-left: 0;
+        width: 20px;
+        margin-bottom: 16px;
+    }
+    
+    span{
+        color: white;
+        font-family: cursive;
+        font-size: 18px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .div-footer{
+        width: 30%;
+        height: 180px;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .div-footer-perfil{
+        width: 30%;
+        height: 180px;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    p{
+        width: 100%;
+        height: 100%;
+    }
+    
+    p{
+        width: 250px;
+        color: white;
+        font-family:fantasy;
+        font-size: 15px;
+        margin-top: 0px;
+        font-weight: none;
+    }
+    
+    #elementos-footer{
+        text-decoration: none;
+        color: white;
+        font-family:fantasy;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    #elementos-footer:hover{
+        color: rgb(243, 36, 181);
+    }
+        
+}
+/*------------Fim da estilização responsiva da tela min-width: 500px--------------*/
+
+
